@@ -1,0 +1,131 @@
+/**
+   @ Theme Package
+   @ Style
+ */
+
+/* vietnamese */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlCxe5Tewm2_XWfbGchcXw4g.woff2) format('woff2');
+    unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlIa1YDtoarzwSXxTHggEXMw.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Source Sans Pro'), local('SourceSansPro-Regular'), url(http://fonts.gstatic.com/s/sourcesanspro/v9/ODelI1aHBYDBqgeIAH2zlJbPFduIYtoLzwST68uhz_Y.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+
+img.wp-smiley,
+img.emoji {
+    display: inline !important;
+    border: none !important;
+    box-shadow: none !important;
+    height: 1em !important;
+    width: 1em !important;
+    margin: 0 .07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+body {
+    font-size:1em;
+
+    font-family:'Source Sans Pro';
+    font-weight:400;
+
+    color:#9999aa;
+}
+
+
+.button, .button:link, .button:visited,
+input[type=submit],
+.tp-caption {
+    font-family:'Source Sans Pro';
+    font-weight:400;
+}
+
+
+h1, h2, h3, h4, h5, h6, .heading, .header .title {
+    font-family:'Source Sans Pro';
+    font-weight:400;
+    color:#556677;		}
+
+
+.widget-title {
+    color:#556677;		}
+
+
+.menu-main li a {
+    font-family:'Source Sans Pro';
+    font-weight:400;
+    color:#9999aa;		}
+
+.menu-mobile li a {
+    font-family:'Source Sans Pro';
+    font-weight:400;
+    color:#9999aa;
+}
+
+
+a:link, a:visited { color:#2a88bf; }
+a:hover { color:#2a88bf; }
+
+
+.primary-color { color:#89ce40; }
+.primary-color-bg { background-color:#89ce40; }
+.primary-color-border { border-color:#89ce40; }
+.menu-item.menu-highlight > a { background-color:#89ce40; }
+.tp-caption.primary_color_background { background:#89ce40; }
+.tp-caption.primary_color_text{ color:#89ce40; }
+.widget_nav_menu a .menu-icon { color:#89ce40; }
+
+.button, .button:link, .button:visited, input[type=submit] { background-color:#89ce40; }
+.button:hover, input[type=submit]:hover { background-color:#89ce40; }
+::selection  { color:#fff; background-color:#89ce40; }
+::-moz-selection { color:#fff; background-color:#89ce40; }
+
+
+.secondary-color { color:#444449; }
+.secondary-color-bg { background-color:#444449; }
+.secondary-color-border { border-color:#444449; }
+.tp-caption.secondary_color_background { background:#444449; }
+.tp-caption.secondary_color_text{ color:#444449; }
+
+
+
+.slider-slides { height:650px; }
+
+html body .button,
+html body .button:link,
+html body .button:visited,
+html body input[type=submit] { background:none; border-color:#89ce40; color:#89ce40; }
+html body .button:hover,
+html body input[type=submit]:hover { color:#fff; background:#89ce40; }
+.menu-main .current_page_ancestor > a,
+.menu-main .current-menu-item > a { color:#89ce40; }
+.menu-portfolio .current-cat a,
+.pagination .current { background-color:#89ce40; }
+.features a.feature-image { color:#89ce40; }
+
+.color-white{
+    color:white;
+}
+
+.color-green {
+    color: green;
+}
+
