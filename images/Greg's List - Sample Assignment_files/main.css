@@ -1,0 +1,27 @@
+
+nav {
+  height: 70px;
+  width: 100%;
+  background-color: #8d8d8d;
+  position: fixed;
+  padding-left: 10px;
+}
+
+nav .logo-text {
+  position: absolute;
+  vertical-align: middle;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav .menu-align-right {
+  text-align: right;
+  position: absolute;
+}
